@@ -1,0 +1,32 @@
+.item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+.avatar {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin-top: 10px;
+}
+.name {
+  margin: 3px auto;
+}
+
+.status {
+  display: block;
+  width: 15px;
+  height: 15px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 50%;
+}
+.online {
+  composes: status;
+  background-color: green;
+}
+.offline {
+  composes: status;
+  background-color: red;
+}
