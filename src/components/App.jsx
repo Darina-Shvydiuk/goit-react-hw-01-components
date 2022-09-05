@@ -10,9 +10,11 @@ import friends from './FriendList/friends';
 import { TransactionHistory } from './TransactionHistory/TransactionHistory';
 import transactions from './TransactionHistory/transactions';
 
+import s from './App.module.css';
+
 export const App = () => {
   return (
-    <div>
+    <div className={s.container}>
       <Profile
         avatar={user.avatar}
         username={user.username}
