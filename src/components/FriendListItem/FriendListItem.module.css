@@ -1,22 +1,22 @@
 .item {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: flex-start;
+  align-items: baseline;
 }
 .avatar {
   display: block;
-  width: 30px;
-  height: 30px;
+  height: auto;
   margin-top: 10px;
 }
 .name {
-  margin: 3px auto;
+  margin: 5px auto;
+  font-weight: 500;
 }
 
 .status {
   display: block;
-  width: 15px;
-  height: 15px;
+  width: 10px;
+  height: 10px;
   margin-left: auto;
   margin-right: auto;
 
@@ -24,9 +24,9 @@
 }
 .online {
   composes: status;
-  background-color: green;
+  background-color: rgb(57, 223, 154);
 }
 .offline {
   composes: status;
-  background-color: red;
+  background-color: rgba(238, 82, 82, 0.984);
 }

@@ -2,5 +2,69 @@
   display: inline-flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+  background-color: white;
+  border: 1px solid darkgray;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 100px;
+  height: auto;
+  margin-bottom: 15px;
+  margin-top: 0;
+  border-radius: 25%;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.tag {
+  color: grey;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.location {
+  color: grey;
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.stats {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
   justify-content: center;
+  list-style: none;
+  background-color: lightgray;
+}
+
+.item {
+  display: block;
+  padding: 25px;
+  border: 1px solid darkgray;
+  max-width: 100%;
+}
+
+.label {
+  display: block;
+  color: grey;
+  margin-bottom: 7px;
+}
+
+.quantity {
+  font-weight: 500;
 }
